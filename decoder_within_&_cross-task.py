@@ -263,7 +263,7 @@ def fold_has_all_classes(indices, y, all_classes):
 
 group_names = ["AB", "PD"]
 analysisfile   = [(x_f_AB, y_AB, groups_AB), (x_f_PD, y_PD, groups_PD)]
-all_masks   = [list_masks_contrast,        list_masks_conjunction]
+all_masks   = [list_masks_contrast, list_masks_conjunction]
 all_masks_names = [list_masks_names_contrast, list_masks_names_conjunction]
 mask_set_names  = ["contrast", "conjunction"]
 
